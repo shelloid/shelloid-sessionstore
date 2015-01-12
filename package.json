@@ -1,0 +1,61 @@
+{
+  "author": "jayaraj-poroor",
+  "name": "shelloid-sessionstore",
+  "version": "0.0.1-alpha",
+  "private": false,
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "jsondate": "0.0.1",
+    "lodash": "2.4.1",
+    "tolerance": "1.0.0"
+  },
+  "devDependencies": {
+    "cradle": ">=0.2.7",
+    "expect.js": ">= 0.1.2",
+    "express": ">= 2.5.0",
+    "express-session": ">= 1.0.0",
+    "memjs": ">= 0.8.4",
+    "mocha": ">= 1.0.1",
+    "mongodb": "1.x",
+    "redis": ">= 0.10.1",
+    "tingodb": ">= 0.0.1"
+  },
+  "description": "Shelloid-sessionstore is a customized clone of the popular Sessionstore project for integration Shelloid application server.",
+  "keywords": [
+    "express",
+    "session",
+    "connect",
+    "orm",
+    "mongodb",
+    "couchdb",
+    "tingodb",
+    "redis",
+    "memory",
+    "database",
+    "host"
+  ],
+  "homepage": "https://github.com/shelloid/shelloid-sessionstore",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shelloid/shelloid-sessionstore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shelloid/shelloid-sessionstore/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/adrai/sessionstore/master/licence"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  }
+}
